@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:textSize="18sp"
+        android:fontFamily="@font/regular"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/regular"
+        android:layout_below="@id/heading"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/message"
+        android:fontFamily="@font/regular"
+        android:background="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/semibold"
+        android:text="Okay"
+        android:id="@+id/okayBtn"
+        style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+</RelativeLayout>

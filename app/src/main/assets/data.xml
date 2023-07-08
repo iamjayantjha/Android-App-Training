@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<rootnode>
+<id>1</id>
+<name>John</name>
+<surname>Smith</surname>
+<age>25</age>
+</rootnode>
+<rootnode>
+<id>2</id>
+<name>John</name>
+<surname>Smith</surname>
+<age>25</age>
+</rootnode>
+<rootnode>
+<id>3</id>
+<name>John</name>
+<surname>Smith</surname>
+<age>25</age>
+</rootnode>
+</root>
